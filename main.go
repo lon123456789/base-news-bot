@@ -47,7 +47,7 @@ func fetchFeed(fp *gofeed.Parser, feedURL string, window time.Duration) ([]Item,
 		items = append(items, Item{
 			Title:     strings.TrimSpace(it.Title),
 			Link:      strings.TrimSpace(it.Link),
-			Published: *pub,
+			Published: pub,
 			Source:    feed.Title,
 		})
 	}
