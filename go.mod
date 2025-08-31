@@ -1,2 +1,5 @@
-go mod init example.com/base-news-bot
-go get github.com/mmcdole/gofeed
+module example.com/base-news-bot
+
+go 1.22
+
+require github.com/mmcdole/gofeed v1.2.1 // indirect
