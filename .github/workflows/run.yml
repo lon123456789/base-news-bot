@@ -25,5 +25,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           WINDOW_HOURS: "168"
-          MAX_POSTS: "10"
+          MAX_POSTS: "100"
         run: go run main.go
