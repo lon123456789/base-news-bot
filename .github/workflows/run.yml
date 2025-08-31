@@ -2,8 +2,7 @@ name: Base News Bot
 
 on:
   schedule:
-    # Run every day at 05:00 and 17:00 UTC
-    - cron: "0 5,17 * * *"
+    - cron: "0 5,17 * * *"   # runs every day at 05:00 and 17:00 UTC
   workflow_dispatch: {}
 
 jobs:
